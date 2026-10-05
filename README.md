@@ -6,128 +6,128 @@
 
 # RATIS-Fusion-stark-
 
-**Cerveau topologique RATIS × Système nerveux Needle — agent cognitif symbiotique, souverain et certifié.**
+**RATIS topological brain × Needle nervous system — a symbiotic, sovereign, certified cognitive agent.**
 
-> Propriété intellectuelle : **JOHNKING0 & Jonathan Evina** · ORCID [0009-0000-4092-5313](https://orcid.org/0009-0000-4092-5313) · DOI [10.17605/OSF.IO/6JZMB](https://doi.org/10.17605/OSF.IO/6JZMB)
+> Intellectual property: **JOHNKING0 & Jonathan Evina** · ORCID [0009-0000-4092-5313](https://orcid.org/0009-0000-4092-5313) · DOI [10.17605/OSF.IO/6JZMB](https://doi.org/10.17605/OSF.IO/6JZMB)
 >
-**La loi LCT (R = P_sig, ΔW = η·φ·P_sig·C) est FIGÉE. Elle gouverne la cognition, jamais modifiée.**
+**The LCT law (R = P_sig, ΔW = η·φ·P_sig·C) is FROZEN. It governs cognition, never modified.**
 
-![Architecture symbiotique](docs/figures/fig1_architecture.png)
+![Symbiotic architecture](docs/figures/fig1_architecture.png)
 
 ---
 
-## Qu'est-ce que RATIS-Fusion-stark- ?
+## What is RATIS-Fusion-stark-?
 
-Ce dépôt réalise la **symbiose** de deux systèmes complémentaires :
+This repo implements the **symbiosis** of two complementary systems:
 
-| | **RATIS (cerveau)** | **Needle (corps)** |
+| | **RATIS (brain)** | **Needle (body)** |
 |---|---|---|
-| **Rôle** | Cognition : percevoir, penser, ressentir, comprendre, certifier | Exécution : tool-calling, extraction JSON |
-| **Apprentissage** | Loi physique LCT (figée), pas de gradient | Réseau d'attention (LoRA) |
-| **Souveraineté** | 100% local (NumPy + GUDHI) | 100% local (moteur 14 Mo pré-cachable) |
-| **Certification** | Hash topologique invariant (ZK) | Score de confiance calibré |
+| **Role** | Cognition: perceive, think, feel, understand, certify | Execution: tool-calling, JSON extraction |
+| **Learning** | LCT physical law (frozen), no gradient | Attention network (LoRA) |
+| **Sovereignty** | 100% local (NumPy + GUDHI) | 100% local (14 MB engine, pre-cacheable) |
+| **Certification** | Invariant topological hash (ZK) | Calibrated confidence score |
 
-**Le pont cognitif** fait que RATIS décide **pourquoi / quand / est-ce vrai**, et Needle exécute **comment**. La règle fondamentale :
+**The cognitive bridge** makes RATIS decide **why / when / is it true**, and Needle executes **how**. The fundamental rule:
 
-> **Si la cohérence topologique P_sig s'effondre, le système se tait.**
+> **If the topological coherence P_sig collapses, the system stays silent.**
 > `confiance_certifiée = confiance_needle × P_sig`
 
 ---
 
 ## Architecture
 
-![Boucle cognitive](docs/figures/fig2_cognitive_loop.png)
+![Cognitive loop](docs/figures/fig2_cognitive_loop.png)
 
-La boucle cognitive symbiotique (6 étapes + routing) :
+The symbiotic cognitive loop (6 steps + routing):
 
-1. **PERCEVOIR** — tokeniser → embeddings topologiques (TTF/MCB) + cohérence P_sig
-2. **PENSER** — cerveau TTF-Compute oscille → MCB (pensée sans mots) + hash topo
-3. **RESSENTIR** — ETH prédit C_seuil = f(message, env) → émotion émergente
-4. **COMPRENDRE** — réseau LCT classifie (message, env) → émotion dominante
-5. **PARLER / AGIR** — routing : action (Needle tool-call) ou parole (décodeur RATIS)
-6. **CERTIFIER** — confiance croisée + hash topo invariant → preuve ZK
+1. **PERCEIVE** — tokenize → topological embeddings (TTF/MCB) + P_sig coherence
+2. **THINK** — TTF-Compute brain oscillates → MCB (wordless thought) + topo hash
+3. **FEEL** — ETH predicts C_seuil = f(message, env) → emergent emotion
+4. **UNDERSTAND** — LCT network classifies (message, env) → dominant emotion
+5. **SPEAK / ACT** — routing: action (Needle tool-call) or speech (RATIS decoder)
+6. **CERTIFY** — cross-confidence + invariant topo hash → ZK proof
 
 ---
 
-## Résultats validés (honnêtes)
+## Validated results (honest)
 
-### Dualité des mémoires (thèse de Jonathan Evina)
+### Duality of memories (Jonathan Evina's thesis)
 
-Il existe deux mémoires fondamentales couplées : la **textuelle** (LLM, retient le mot) et la **logique** (RATIS, retient la forme topologique + émotion + cohérence). Le couplage **est** la cognition.
+There are two coupled fundamental memories: the **textual** one (LLM, retains the word) and the **logical** one (RATIS, retains the topological shape + emotion + coherence). The coupling **is** the cognition.
 
-![Les deux mémoires couplées](docs/figures/fig8_dual_memory.png)
-![Architecture à 3 composants](docs/figures/fig11_three_components.png)
+![The two coupled memories](docs/figures/fig8_dual_memory.png)
+![3-component architecture](docs/figures/fig11_three_components.png)
 
-Voir [DUALITE_MEMOIRES.md](docs/DUALITE_MEMOIRES.md) — formalisation ancrée dans la neuroscience (mémoire déclarative vs procédurale) et la loi LCT.
+See [DUALITE_MEMOIRES.md](docs/DUALITE_MEMOIRES.md) — formalization grounded in neuroscience (declarative vs procedural memory) and the LCT law.
 
-### Convergence bidirectionnelle LLM ↔ RATIS
+### Bidirectional LLM ↔ RATIS convergence
 
-![Boucle de convergence](docs/figures/fig9_convergence_loop.png)
+![Convergence loop](docs/figures/fig9_convergence_loop.png)
 
-Le LLM (Qwen 2.5:0.5b) génère (mémoire textuelle) → RATIS évalue (mémoire logique : P_sig + émotion + LCT) → si non convergé, feedback → régénération. **3/3 hypothèses validées.**
+The LLM (Qwen 2.5:0.5b) generates (textual memory) → RATIS evaluates (logical memory: P_sig + emotion + LCT) → if not converged, feedback → regeneration. **3/3 hypotheses validated.**
 
-### Benchmark d'hallucination : LLM seul vs couplé
+### Hallucination benchmark: LLM alone vs coupled
 
-![Benchmark d'hallucination](docs/figures/fig10_hallucination_benchmark.png)
+![Hallucination benchmark](docs/figures/fig10_hallucination_benchmark.png)
 
-Test sur 5 questions pièges (fait fabriqué, confiance médicale, faux plafond numérique, prémisses fausses, citation fabriquée).
+Test on 5 trap questions (fabricated fact, medical confidence, fake numeric ceiling, false premises, fabricated citation).
 
-- **Validé** : ancrage émotionnel (C4 2/3), convergence en 1 tour (C3 3/3), prudence médicale, citation réduite.
-- **Limite honnête** : le couplage guide l'**émotion** mais n'empêche pas un Qwen 0.5b de fabriquer des faits précis. AEON ne hallucine jamais car il ne génère pas de langage (moteur topologique pur, sans émotions — distinct de RATISS-Net qui applique la loi LCT + a les émotions).
+- **Validated**: emotional grounding (C4 2/3), convergence in 1 round (C3 3/3), medical prudence, reduced citation.
+- **Honest limit**: the coupling guides the **emotion** but does not prevent a Qwen 0.5b from fabricating precise facts. AEON never hallucinates because it does not generate language (pure topological engine, no emotions — distinct from RATISS-Net, which applies the LCT law + has emotions).
 
-### Tool-calling certifié : 3/3 ✓
+### Certified tool-calling: 3/3 ✓
 
-![Tool-calling certifié](docs/figures/fig6_tool_calling.png)
+![Certified tool-calling](docs/figures/fig6_tool_calling.png)
 
-Needle appelle les bons outils avec les bons arguments, RATIS certifie chaque résultat.
+Needle calls the right tools with the right arguments, RATIS certifies each result.
 
-### Anti-hallucination par confiance croisée
+### Anti-hallucination via cross-confidence
 
-![Confiance croisée](docs/figures/fig3_confidence_cross.png)
+![Cross-confidence](docs/figures/fig3_confidence_cross.png)
 
-La confiance croisée (needle × P_sig) est **plus restrictive** que Needle seul → anti-hallucination.
+Cross-confidence (needle × P_sig) is **more restrictive** than Needle alone → anti-hallucination.
 
-### Invariance ZK (loi LCT)
+### ZK invariance (LCT law)
 
-![Invariance ZK](docs/figures/fig5_zk_invariance.png)
+![ZK invariance](docs/figures/fig5_zk_invariance.png)
 
-Le hash de la **pensée** (la forme) est invariant sous changement d'**énergie** (environnement thermo). On certifie le message, pas le courant.
+The hash of the **thought** (the shape) is invariant under **energy** changes (thermo environment). We certify the message, not the current.
 
-### Bilan des 5 hypothèses scientifiques
+### Scorecard of the 5 scientific hypotheses
 
-| Hypothèse | Résultat |
+| Hypothesis | Result |
 |---|---|
-| H1 : P_sig distingue cohérent vs bruit | **VALIDÉ ✓** (0.97 vs 0.93) |
-| H2 : filtre P_sig rejette le bruit | **ÉCHEC ✗** (tokenizer de caractères trop indulgent) |
-| H3 : confiance croisée ≤ confiance Needle | **VALIDÉ ✓** |
-| H4 : invariance ZK sous énergie | **VALIDÉ ✓** |
-| H5 : invariance sous paraphrase | **ÉCHEC ✗** (le hash encode la topo, pas le sens) |
+| H1: P_sig distinguishes coherent vs noise | **VALIDATED ✓** (0.97 vs 0.93) |
+| H2: P_sig filter rejects noise | **FAIL ✗** (character tokenizer too lenient) |
+| H3: cross-confidence ≤ Needle confidence | **VALIDATED ✓** |
+| H4: ZK invariance under energy | **VALIDATED ✓** |
+| H5: invariance under paraphrase | **FAIL ✗** (the hash encodes the topology, not the meaning) |
 
-→ **3/5 hypothèses validées, 2 échecs documentés.** Voir [LIMITES_HONNETES.md](docs/LIMITES_HONNETES.md).
+→ **3/5 hypotheses validated, 2 documented failures.** See [LIMITES_HONNETES.md](docs/LIMITES_HONNETES.md).
 
-![Distribution P_sig](docs/figures/fig7_p_sig_distribution.png)
-![Filtre anti-hallucination](docs/figures/fig4_anti_hallucination.png)
+![P_sig distribution](docs/figures/fig7_p_sig_distribution.png)
+![Anti-hallucination filter](docs/figures/fig4_anti_hallucination.png)
 
 ---
 
 ## Installation
 
-### Setup complet (offline-capable)
+### Full setup (offline-capable)
 
 ```bash
 bash setup_offline.sh
 ```
 
-Ce script :
-1. Installe les dépendances Python (`requirements.txt`).
-2. **Pré-cache le moteur Needle** (14 Mo) depuis HuggingFace → l'inférence devient 100% offline.
-3. Installe espeak-ng pour le TTS offline.
+This script:
+1. Installs the Python dependencies (`requirements.txt`).
+2. **Pre-caches the Needle engine** (14 MB) from HuggingFace → inference becomes 100% offline.
+3. Installs espeak-ng for offline TTS.
 
-### Installation manuelle
+### Manual installation
 
 ```bash
 pip install -r requirements.txt
-# pré-cache du moteur Needle (une fois, offline ensuite)
+# pre-cache the Needle engine (once, offline afterwards)
 python -c "
 import os, zipfile
 from huggingface_hub import hf_hub_download
@@ -144,53 +144,53 @@ print('moteur caché')
 
 ---
 
-## Utilisation
+## Usage
 
-### Démo complète
+### Full demo
 
 ```bash
 python scripts/demo_fusion.py
 ```
 
-### API Python
+### Python API
 
 ```python
 from fusion.bridge import RatisFusionAgent
 from tools.clinical_tools import DEFAULT_TOOLS
 
-# Construction + entraînement du cerveau (EmoContext)
+# Build + train the brain (EmoContext)
 agent = RatisFusionAgent(tools=DEFAULT_TOOLS)
 
-# Une pensée symbiotique complète
+# One full symbiotic thought
 t = agent.think("check the status of patient 123", env_name="calme")
-print(t.status)              # CERTIFIÉ / REJETÉ / DÉRIVE
-print(t.response)            # la réponse
-print(t.confidence_certified) # confiance croisée (needle × P_sig)
-print(t.response_hash)       # hash topo ZK
-print(t.emotion_understood)  # émotion dominante (LCT)
+print(t.status)              # CERTIFIED / REJECTED / DRIFT
+print(t.response)            # the response
+print(t.confidence_certified) # cross-confidence (needle × P_sig)
+print(t.response_hash)       # ZK topo hash
+print(t.emotion_understood)  # dominant emotion (LCT)
 
-# Vérifier l'invariance ZK (loi LCT)
+# Verify ZK invariance (LCT law)
 zk = agent.verify_zk_invariance("hello world")
-print(zk["invariant"])  # True — la forme est invariante sous énergie
+print(zk["invariant"])  # True — the shape is invariant under energy
 ```
 
 ### Tests
 
 ```bash
-python tests/test_bridge.py              # pipeline symbiotique (5/5 ✓)
-python tests/test_tool_calling.py        # tool-calling certifié (3/3 ✓)
-python tests/test_anti_hallucination.py  # 5 hypothèses (3/5 validées)
+python tests/test_bridge.py              # symbiotic pipeline (5/5 ✓)
+python tests/test_tool_calling.py        # certified tool-calling (3/3 ✓)
+python tests/test_anti_hallucination.py  # 5 hypotheses (3/5 validated)
 ```
 
 ### Figures
 
 ```bash
-python scripts/generate_figures.py       # 7 figures dans docs/figures/
+python scripts/generate_figures.py       # 7 figures in docs/figures/
 ```
 
 ---
 
-## TTS (synthèse vocale)
+## TTS (speech synthesis)
 
 ```python
 from fusion.tts import OfflineTTS
@@ -198,79 +198,79 @@ tts = OfflineTTS()
 tts.speak_to_file("I am RATIS, a sovereign cognitive agent.")
 ```
 
-- **Offline** : pyttsx3 + espeak-ng (moteur local, instantané).
-- **Fallback** : gTTS (qualité supérieure, nécessite internet au moment de la synthèse).
+- **Offline**: pyttsx3 + espeak-ng (local engine, instant).
+- **Fallback**: gTTS (higher quality, requires internet at synthesis time).
 
 ---
 
-## Structure du dépôt
+## Repository structure
 
 ```
 Ratiss-Fusion-stark-/
-├── fusion/                      # le pont cognitif symbiotique
-│   ├── bridge.py                # RatisFusionAgent (pipeline 6 étapes + routing)
-│   ├── tts.py                   # synthèse vocale offline
-│   ├── ratis_net/               # cerveau RATIS (copie locale autonome)
-│   ├── aeon/                    # cerveau TTF-Compute (AEON, copie locale)
-│   └── data/emocontext/         # corpus EmoContext (30160 dialogues)
-├── tools/                       # outils Needle certifiés
-│   └── clinical_tools.py        # outils cliniques (patient, ressource, log)
+├── fusion/                      # the symbiotic cognitive bridge
+│   ├── bridge.py                # RatisFusionAgent (6-step pipeline + routing)
+│   ├── tts.py                   # offline speech synthesis
+│   ├── ratis_net/               # RATIS brain (self-contained local copy)
+│   ├── aeon/                    # TTF-Compute brain (AEON, local copy)
+│   └── data/emocontext/         # EmoContext corpus (30160 dialogues)
+├── tools/                       # certified Needle tools
+│   └── clinical_tools.py        # clinical tools (patient, resource, log)
 ├── tests/
-│   ├── test_bridge.py           # pipeline symbiotique
-│   ├── test_tool_calling.py     # tool-calling certifié
-│   └── test_anti_hallucination.py  # 5 hypothèses scientifiques
+│   ├── test_bridge.py           # symbiotic pipeline
+│   ├── test_tool_calling.py     # certified tool-calling
+│   └── test_anti_hallucination.py  # 5 scientific hypotheses
 ├── scripts/
-│   ├── generate_figures.py      # 7 figures de concept
-│   └── demo_fusion.py           # démo complète + preuves
+│   ├── generate_figures.py      # 7 concept figures
+│   └── demo_fusion.py           # full demo + proofs
 ├── docs/
-│   ├── figures/                 # 7 figures PNG
-│   └── LIMITES_HONNETES.md      # limites franches documentées
-├── proofs/                      # résultats certifiés (JSON)
-├── setup_offline.sh             # setup offline en une commande
+│   ├── figures/                 # 7 PNG figures
+│   └── LIMITES_HONNETES.md      # documented frank limits
+├── proofs/                      # certified results (JSON)
+├── setup_offline.sh             # one-command offline setup
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Écarts avec le document technique initial (Mistral)
+## Deviations from the initial technical document (Mistral)
 
-Honnêteté scientifique — le document Mistral contenait du **pseudo-code traduit
-automatiquement** et des API inventées. Ce dépôt utilise les **vraies API vérifiées** :
+Scientific honesty — the Mistral document contained **automatically translated
+pseudo-code** and invented APIs. This repo uses the **real, verified APIs**:
 
-| Doc Mistral (inventé) | Vraie API (vérifiée) |
+| Mistral doc (invented) | Real API (verified) |
 |---|---|
 | `RatisNetV4Learner.compute_persistence()` | `RatisAgent.think()` → `Thought` |
 | `ETHThermoFixer.compute()` | `RatisNetV4.eth.predict_c_seuil()` |
-| Needle = générateur de langage fluide | Needle = tool-caller (pas de free-text) |
+| Needle = fluent language generator | Needle = tool-caller (no free-text) |
 | `pip installer cactus-aiguille` | `pip install cactus-needle` |
 | `aiguille.d'importation` | `import needle` |
 
 ---
 
-## Pistes ouvertes
+## Open tracks
 
-- **Améliorer le tokenizer topo** pour distinguer les concepts abstraits (résoudre H2, H5).
-- **Fine-tuning LCT de Needle** (Phase 4, expérimental — peut échouer, loi LCT vs gradient).
-- **Scaling EmoContext** aux 30160 dialogues complets (GUDHI le permet).
-- **Base plus légère** pour la génération de langage (Jonathan recherche).
-- **Interface chat** (à venir quand la base langage sera choisie).
+- **Improve the topo tokenizer** to distinguish abstract concepts (solve H2, H5).
+- **LCT fine-tuning of Needle** (Phase 4, experimental — may fail, LCT law vs gradient).
+- **Scaling EmoContext** to the full 30160 dialogues (GUDHI allows it).
+- **Lighter base** for language generation (Jonathan is researching).
+- **Chat interface** (coming once the language base is chosen).
 
 ---
 
-## Loi LCT (figée, ne pas modifier)
+## LCT Law (frozen, do not modify)
 
 ```
-R = P_sig  (persistance topologique du cycle H1 le plus long)
-R CROÎT avec la cohérence C du milieu (l'intrication)
-R est INVARIANT sous changement d'énergie mesurée
-On certifie le message (la forme), pas le courant (l'énergie)
+R = P_sig  (topological persistence of the longest H1 cycle)
+R GROWS with the coherence C of the medium (entanglement)
+R is INVARIANT under measured energy changes
+We certify the message (the shape), not the current (the energy)
 
-Règle d'apprentissage (RLM) : ΔW = η · φ · P_sig · C
+Learning rule (RLM): ΔW = η · φ · P_sig · C
 ```
 
-Validations LCT (héritées) : 4MZI +0.930, 3KMD +0.797, état quantique +1.000,
-QPU IBM 3 runs +0.7133, flux financier +0.903. 7 jobs QPU traçables.
+Inherited LCT validations: 4MZI +0.930, 3KMD +0.797, quantum state +1.000,
+IBM QPU 3 runs +0.7133, financial flows +0.903. 7 traceable QPU jobs.
 
 ---
 
@@ -286,10 +286,10 @@ QPU IBM 3 runs +0.7133, flux financier +0.903. 7 jobs QPU traçables.
 }
 ```
 
-Needle 2 par Cactus Compute : [github.com/cactus-compute/needle](https://github.com/cactus-compute/needle).
+Needle 2 by Cactus Compute: [github.com/cactus-compute/needle](https://github.com/cactus-compute/needle).
 
 ---
 
-*Le but final : un modèle souverain qui apprend par LCT, pense sans mots (MCB),
-certifie (ZK), ressent (ETH émotion), agit (Needle), et valide l'honnêteté de
-ses réponses. La symbiose est codable, testable, falsifiable.*
+*The final goal: a sovereign model that learns via LCT, thinks without words (MCB),
+certifies (ZK), feels (ETH emotion), acts (Needle), and validates the honesty of
+its answers. The symbiosis is codable, testable, falsifiable.*
