@@ -282,7 +282,7 @@ IBM QPU 3 runs +0.7133, financial flows +0.903. 7 traceable QPU jobs.
   author       = {Evina, Jonathan and {OpenHands (cofondateur technique)}},
   year         = {2026},
   note         = {ORCID 0009-0000-4092-5313, DOI 10.17605/OSF.IO/6JZMB},
-  howpublished = {\url{https://github.com/evinajonathan13-max/Ratiss-Fusion-stark-}}
+  howpublished = {\url{https://github.com/jonathansearch/Ratiss-Fusion-stark-}}
 }
 ```
 
